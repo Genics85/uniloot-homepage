@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+/*
+CSS reset
+
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #08021a;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.landing-details {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.landing-headers {
+  font-size: 40px;
+  font-weight: 500;
+}
+.landing-header-gradient {
+  background: linear-gradient(
+    to right,
+    #fc0db9 5%,
+    white 100%
+  ); /* Replace with your desired gradient colors */
+  -webkit-background-clip: text; /* WebKit/Blink browsers */
+  background-clip: text;
+  color: transparent;
+}
+.statement p {
+  color: #ffe9e9;
+  line-height: 21px;
+}
+.statement {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.statement-buttons {
+  display: flex;
+  gap: 86px;
+}
+
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.company-name {
+  color: white;
+  font-size: 20px;
+  font-weight: 600px;
+}
+.company-b {
+  color: #c61ed4;
+}
+.navigation-items {
+  display: flex;
+  gap: 16px;
+}
+
+.social-handles {
+  display: flex;
+  gap: 20px;
+}
+
+.landing-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-section {
+  background-image: url("./assets/main_background.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  padding-left: 135px;
+  padding-right: 62px;
+}
+
+.tradebot-cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 38px;
+  gap: 30px;
+}
+
+.tradebot-card {
+  height: 205px;
+  display: flex;
+  width: 292px;
+  padding: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 0px 0.25px 0px 0px rgba(255, 255, 255, 0.5) inset,
+    0px -1px 20px 0px rgba(187, 155, 255, 0.15),
+    0px -1px 5px 0px rgba(233, 223, 255, 0.3);
+}
+.tradebot-card p {
+  font-size: 12px;
+  line-height: 18px;
+}
+.tradebot-card h3 {
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 26px;
+}
+
+.coming-soon{
+    font-size: 8px;
+    text-decoration: underline;
+}
+
+.primary-btn {
+  background: linear-gradient(94.52deg, #9156f2 0%, #c61ed4 82.22%);
+  font-weight: 600;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
