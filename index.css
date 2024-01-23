@@ -255,9 +255,9 @@ body {
   line-height: 26px;
 }
 
-.coming-soon{
-    font-size: 8px;
-    text-decoration: underline;
+.coming-soon {
+  font-size: 8px;
+  text-decoration: underline;
 }
 
 .primary-btn {
@@ -269,4 +269,139 @@ body {
   border-radius: 20px;
   cursor: pointer;
   font-size: 14px;
+}
+
+.tradebot-plan-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 65px;
+  align-items: center;
+  gap: 36px;
+}
+
+.tradebot-plan-section h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section-headers {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.phase-glow {
+  text-align: center;
+  text-shadow: -8px 4px 74px rgba(177, 48, 255, 0.81), 10px 4px 59px #ec17bd;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  background: var(--Linear, linear-gradient(95deg, #9156f2 0%, #c61ed4 82.22%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow {
+  background-color: #bb45ff2d;
+  border-radius: 30px;
+  box-shadow: 0 0 20px 20px #bb45ff2d;
+}
+.phase-details {
+  display: flex;
+  padding-left: 135px;
+  align-items: center;
+  gap: 90px;
+}
+
+.phase-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.phase-plan p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.plan-details-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.plan-details {
+  width: 449px;
+  display: flex;
+  padding: 17px 24px 37px 46px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  border-radius: 20px;
+  border: 1px solid #9156f2;
+}
+.plan-details p {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.info-list {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+.info-list {
+  align-items: start;
+}
+
+.info-pointer {
+  width: 23px;
+  height: 19px;
+  flex-shrink: 0;
+  background: linear-gradient(95deg, #9156f2 0%, #c61ed4 82.22%);
+}
+
+.info-list p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.info-cat {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.plan-side-images {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding-right: 62px;
+}
+
+.circular-rod-img {
+  padding-left: 60px;
+  margin-top: -50px;
+}
+
+.radial-gradient-background {
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(13, 4, 41, 0.2) 0%,
+      rgba(39, 13, 115, 0.2) 52.4%,
+      rgba(48, 27, 111, 0.2) 52.41%,
+      rgba(5, 2, 14, 0.2) 96.4%
+    ),
+    linear-gradient(180deg, #0e042c 46.5%, #0a0320 54.5%, #0f042d 67%);
 }
