@@ -284,7 +284,7 @@ body {
   font-weight: 600;
 }
 
-.section-headers {
+.section-header {
   font-size: 24px;
   font-weight: 600;
 }
@@ -404,4 +404,135 @@ body {
       rgba(5, 2, 14, 0.2) 96.4%
     ),
     linear-gradient(180deg, #0e042c 46.5%, #0a0320 54.5%, #0f042d 67%);
+}
+
+.trade-perfected-section {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.trade-perfected-section p {
+  text-align: center;
+  font-size: 12px;
+  line-height: normal;
+}
+.perfected-items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 84px;
+}
+.perfected-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tokenomics-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 135px;
+  padding-right: 120px;
+  padding-top: 60px;
+}
+.tokenomics-info {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tokenomics-info p {
+  font-size: 12px;
+  line-height: 18px;
+}
+.tokenomics-info h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.tokenomics-list-item {
+  display: flex;
+  gap: 16px;
+  line-height: 14px;
+}
+
+.tokenomics-glow {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tokenomics-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.token-distribution-section {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.distribution-details {
+  padding-bottom: 40px;
+  width: 853px;
+  height: 429px;
+  background-color: #090222;
+  border: rgba(177, 48, 255, 0.81) 10px solid;
+  border-radius: 24px;
+  flex-shrink: 0;
+  stroke-width: 10px;
+  stroke: var(--Linear, #9156f2);
+  filter: drop-shadow(-8px 4px 20px rgba(176, 48, 255, 0.411))
+    drop-shadow(10px 4px 59px rgba(238, 9, 188, 0.11));
+}
+
+.chart-container {
+  position: relative;
+  width: fit-content;
+}
+.chart-logo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 281px;
+  padding-right: 41px;
+}
+.top-details p {
+  font-size: 12px;
+  line-height: 12px;
+  text-align: start;
+}
+.breakdown-item {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.chart-breakdown {
+  display: flex;
+  padding-left: 116px;
+  gap: 60px;
+}
+.first-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
