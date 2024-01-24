@@ -176,7 +176,7 @@ body {
   justify-content: space-between;
   padding-top: 10px;
 }
-.burger-menu{
+.burger-menu {
   display: none;
 }
 
@@ -225,9 +225,13 @@ body {
   padding-top: 38px;
   gap: 30px;
 }
+.tradebot-cards-two {
+  display: flex;
+  gap: 30px;
+}
 
 .tradebot-card {
-  height: 205px;
+  min-height: 205px;
   display: flex;
   width: 292px;
   padding: 30px;
@@ -428,6 +432,10 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
+  gap: 84px;
+}
+.perfected-items-twos {
+  display: flex;
   gap: 84px;
 }
 .perfected-item {
@@ -706,4 +714,14 @@ footer {
   display: flex;
   justify-content: center;
   column-gap: 400px;
+}
+
+.footer-down-first{
+  display: flex;
+  gap:40px;
+  justify-content: space-between;
+}
+.top-items-first{
+  display: flex;
+  gap: 80px;
 }

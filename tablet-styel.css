@@ -1,8 +1,8 @@
 @media (max-width: 820px) {
-  .desktop-nav-item{
+  .desktop-nav-item {
     display: none;
   }
-  .burger-menu{
+  .burger-menu {
     display: block;
   }
   .landing-image img {
@@ -12,8 +12,78 @@
   .main-section {
     background-image: url("./assets/tablet/tablet-homepage-bg.png");
   }
-  .main-section{
-     padding-left: 10px;
-  padding-right: 10px;
+  .main-section {
+    padding-left: 10px;
+    padding-right: 10px;
   }
+  .tradebot-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 38px;
+    gap: 30px;
+  }
+  .tradebot-cards-two {
+    display: flex;
+    gap: 50px;
+  }
+  .tradebot-plan {
+    padding-top: 0px;
+  }
+  .info-cat {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .plan-side-images {
+    padding-right: 10px;
+  }
+  .phase-details {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    gap: 90px;
+  }
+  .tokenomics-section {
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 50px;
+  }
+  .token-distribution-section {
+    padding-top: 100px;
+  }
+  .distribution-details {
+    padding-bottom: 40px;
+    width: 737px;
+    min-height: 429px;
+  }
+  .frames-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 150px;
+  }
+  .frames-connector {
+    display: none;
+  }
+
+  footer {
+    padding-left: 20px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-bottom: 30px;
+  }
+
+  .footer-down {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer-down p {
+  width: 400px;
+}
 }

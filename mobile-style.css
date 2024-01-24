@@ -21,7 +21,6 @@
   .landing-image {
     width: 131px;
     height: 131px;
-
   }
   .landing-image img {
     max-width: 100%;
@@ -31,13 +30,104 @@
   .landing-headers {
     font-size: 24px;
   }
-  .landing-page{
+  .landing-page {
     padding-bottom: 20px;
     padding-top: 32px;
   }
-
-
   .landing-details {
     width: 450px;
+  }
+  .tradebot-cards-two {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .phase-details {
+    flex-direction: column;
+    padding-left: 10x;
+    gap: 40px;
+  }
+  .plan-details {
+    max-width: 300px;
+    padding: 20px 10px 24px 10px;
+    gap: 30px;
+    border-radius: 20px;
+  }
+  .perfected-items {
+    flex-direction: column;
+  }
+  .tokenomics-section {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 50px;
+  }
+
+  .token-distribution-section {
+    padding-top: 100px;
+  }
+
+  .top-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 270px;
+    padding-right: 10px;
+  }
+  .top-details p {
+    text-align: justify;
+  }
+  .distribution-details {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    height: fit-content;
+  }
+
+  .frames-desktop-styles {
+    display: none;
+  }
+  .frames-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .chart-breakdown {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 10px;
+  }
+
+  .roadmap-section {
+    gap: 30px;
+    padding-top: 100px;
+  }
+
+  .footer-down-first {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+  }
+
+  .footer-top{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-down p {
+    width: 300px;
   }
 }
