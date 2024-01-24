@@ -1,0 +1,19 @@
+@media (max-width: 820px) {
+  .desktop-nav-item{
+    display: none;
+  }
+  .burger-menu{
+    display: block;
+  }
+  .landing-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .main-section {
+    background-image: url("./assets/tablet/tablet-homepage-bg.png");
+  }
+  .main-section{
+     padding-left: 10px;
+  padding-right: 10px;
+  }
+}

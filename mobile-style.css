@@ -1,0 +1,43 @@
+@media (max-width: 480px) {
+  .main-section {
+    background-image: url("./assets/mobile/mobile-homepage-bg.png");
+  }
+  .primary-btn {
+    font-weight: 600;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+  .statement-buttons {
+    gap: 12px;
+  }
+  .statement p {
+    color: #ffe9e9;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .landing-image {
+    width: 131px;
+    height: 131px;
+
+  }
+  .landing-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .landing-headers {
+    font-size: 24px;
+  }
+  .landing-page{
+    padding-bottom: 20px;
+    padding-top: 32px;
+  }
+
+
+  .landing-details {
+    width: 450px;
+  }
+}

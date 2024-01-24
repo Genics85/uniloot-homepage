@@ -151,12 +151,8 @@ body {
   font-weight: 500;
 }
 .landing-header-gradient {
-  background: linear-gradient(
-    to right,
-    #fc0db9 5%,
-    white 100%
-  ); /* Replace with your desired gradient colors */
-  -webkit-background-clip: text; /* WebKit/Blink browsers */
+  background: linear-gradient(to right, #fc0db9 5%, white 100%);
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
@@ -180,6 +176,9 @@ body {
   justify-content: space-between;
   padding-top: 10px;
 }
+.burger-menu{
+  display: none;
+}
 
 .logo {
   display: flex;
@@ -189,7 +188,7 @@ body {
 .company-name {
   color: white;
   font-size: 20px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 .company-b {
   color: #c61ed4;
@@ -279,7 +278,7 @@ body {
   gap: 36px;
 }
 
-.tradebot-plan{
+.tradebot-plan {
   padding-top: 100px;
 }
 
@@ -443,7 +442,7 @@ body {
   justify-content: space-between;
   padding-left: 135px;
   padding-right: 120px;
-  padding-top: 60px;
+  padding-top: 100px;
 }
 .tokenomics-info {
   width: 350px;
@@ -477,7 +476,7 @@ body {
 }
 
 .token-distribution-section {
-  padding-top: 60px;
+  padding-top: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -589,7 +588,7 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 .roadmap-section p {
   font-size: 12px;
@@ -697,6 +696,7 @@ footer {
   top: -24%;
 }
 .frames-btn {
+  margin-top: 20px;
   font-size: 24px;
   padding: 7px 22px;
 }
