@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="tablet-styel.css" />
     <link rel="stylesheet" href="mobile-style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>UNILOOTBOT</title>
   </head>
   <body>
     <main class="main-section">
@@ -22,15 +22,21 @@
         <ul class="navigation-items desktop-nav-item">
           <li class="navigation-item">Trading</li>
           <li class="navigation-item">Features</li>
+          <li class="navigation-item">Tokenomics</li>
           <li class="navigation-item">Roadmap</li>
-          <li class="navigation-item">Docs</li>
-          <li class="navigation-item">Features</li>
+          <li onclick="redirectToDocs()" class="navigation-item">Docs</li>
         </ul>
         <div class="social-handles desktop-nav-item">
-          <img src="./assets/x-logo.png" alt="" />
-          <img src="./assets/telegram-logo.png" alt="" />
+          <img src="./assets/x-log.svg" alt="" />
+          <img
+            onclick="redirectToTelegram()"
+            src="./assets/telegram-svg.svg"
+            alt=""
+          />
         </div>
-        <button class="primary-btn desktop-nav-item">Start trading</button>
+        <button onclick="redirectToTelegram()" class="primary-btn desktop-nav-item">
+          Start trading
+        </button>
         <div onclick="toggleNavbar()" class="burger-menu close-button">
           <img src="./assets/burger-menu 1.png" alt="" />
         </div>
@@ -40,14 +46,44 @@
               <li>Trading</li>
               <li>Features</li>
               <li>Roadmap</li>
-              <li>Docs</li>
+              <li onclick="redirectToDocs()">Docs</li>
               <li>Features</li>
               <div class="responsive-socials">
                 <div>
-                  <img src="./assets/x-logo.png" alt="" />
+                  <svg
+                    width="31"
+                    height="31"
+                    viewBox="0 0 31 31"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="15.5"
+                      cy="15.5"
+                      r="15.5"
+                      fill="url(#paint0_linear_753_186)"
+                    />
+                    <path
+                      d="M19.8125 8H22.1138L17.0875 14.3533L23 23H18.3719L14.7444 17.7571L10.5981 23H8.29313L13.6681 16.2028L8 8H12.7456L16.0212 12.7921L19.8125 8ZM19.0044 21.4782H20.2787L12.0512 9.44227H10.6825L19.0044 21.4782Z"
+                      fill="white"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_753_186"
+                        x1="0"
+                        y1="0"
+                        x2="37.2337"
+                        y2="2.9405"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#9156F2" />
+                        <stop offset="0.734" stop-color="#C61ED4" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                 </div>
-                <div>
-                  <img src="./assets/telegram-logo.png" alt="" />
+                <div onclick="redirectToTelegram()">
+                  <img src="./assets/telegram-svg.svg" alt="" />
                 </div>
               </div>
             </ul>
@@ -55,7 +91,9 @@
               <img src="./assets/close_icon.png" alt="" />
             </div>
           </div>
-          <button class="primary-btn">Start trading</button>
+          <button onclick="redirectToTelegram()" class="primary-btn">
+            Start trading
+          </button>
         </div>
       </div>
       <div class="landing-page">
@@ -76,12 +114,16 @@
               the Ethereum network and soon on other chains.
             </p>
             <div class="statement-buttons">
-              <button class="primary-btn">Start trading</button>
-              <button class="primary-btn">Buy $uniloot</button>
+              <button onclick="redirectToTelegram()" class="primary-btn">
+                Start trading
+              </button>
+              <button onclick="redirectToTelegram()" class="primary-btn">
+                Buy $uniloot
+              </button>
             </div>
           </div>
         </div>
-        <div class="landing-image hover-animation">
+        <div class="landing-image">
           <img src="./assets/homepage-robo.png" alt="" />
         </div>
       </div>
@@ -192,7 +234,7 @@
             </div>
           </div>
           <div class="plan-side-images">
-            <img src="./assets/bot-plan-cat.png" alt="" />
+            <img class="plan-cat" src="./assets/bot-plan-cat.png" alt="" />
             <img
               class="circular-rod-img"
               src="./assets/circular-rod.png"
@@ -246,7 +288,7 @@
       </div>
     </section>
     <section class="tokenomics-section">
-      <div>
+      <div class="tokenomics-bot">
         <img src="./assets/tokenomics-bot.png" alt="" />
       </div>
       <div class="tokenomics-info">
@@ -310,7 +352,7 @@
           </div>
           <div class="top-details">
             <h3 class="section-header">Token Distribution</h3>
-            <p class="minimal-white">
+            <p class="minimal-white2">
               We are continually working on innovations to enhance the trading
               experience and empower users with a competitive edges.
             </p>
@@ -450,25 +492,31 @@
     </section>
     <footer>
       <div class="footer-socials">
-        <img src="./assets/x-logo.png" alt="" />
-        <img src="./assets/telegram-logo.png" alt="" />
+        <img src="./assets/x-log.svg" alt="" />
+        <img
+          onclick="redirectToTelegram()"
+          src="./assets/telegram-svg.svg"
+          alt=""
+        />
       </div>
       <div class="footer-top">
         <div class="top-items-first">
           <div class="footer-links footer-top-item">
             <h3 class="section-header">Links</h3>
             <div class="footer-list">
-              <p>Telegrambot</p>
-              <p>buy $uniboot</p>
-              <p>Revenue sharing</p>
+              <p><a href="https://t.me/+IOMK3PsDPYMyMmNl">Telegram Bot</a></p>
+              <p><a href="https://t.me/+IOMK3PsDPYMyMmNl">Buy $Uniboot</a></p>
+              <p>
+                <a href="https://t.me/+IOMK3PsDPYMyMmNl">Revenue sharing</a>
+              </p>
             </div>
           </div>
           <div class="footer-socials footer-top-item">
             <h3 class="section-header">Socials</h3>
             <div class="footer-list">
-              <p>Twitter</p>
-              <p>telegram group</p>
-              <p>contact us</p>
+              <p><a href="">Twitter</a></p>
+              <p><a href="https://t.me/+IOMK3PsDPYMyMmNl">Telegram group</a></p>
+              <p><a href="https://t.me/+IOMK3PsDPYMyMmNl">Contact Us</a></p>
             </div>
           </div>
         </div>
@@ -476,13 +524,13 @@
           <div class="footer-socials footer-top-item">
             <h3 class="section-header">Resources</h3>
             <div class="footer-list">
-              <p>Docs</p>
+              <p><a href="https://doc.unilootbot.app/product-guide">Docs</a></p>
             </div>
           </div>
           <div class="footer-socials footer-top-item">
             <h3 class="section-header">Legals</h3>
             <div class="footer-list">
-              <p>Terms and condition applied</p>
+              <p><a href="">Terms and condition applied</a></p>
             </div>
           </div>
         </div>
@@ -513,6 +561,13 @@
           navbar.style.display === "none" || navbar.style.display === ""
             ? "flex"
             : "none";
+      }
+
+      function redirectToTelegram() {
+        window.location.href = "https://t.me/+ESohUdORINs5M2Rl";
+      }
+      function redirectToDocs() {
+        window.location.href = "https://doc.unilootbot.app/product-guide";
       }
     </script>
   </body>

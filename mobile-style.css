@@ -136,4 +136,16 @@
   .footer-down p {
     width: 300px;
   }
+
+  .landing-image {
+    display: none;
+  }
+  .tokenomics-bot {
+    display: none;
+  }
+  .plan-side-images {
+    display: none;
+  }
 }
+
+ 

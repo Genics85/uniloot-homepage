@@ -180,6 +180,9 @@ body {
 .burger-menu {
   display: none;
 }
+.responsive-nav-items {
+  display: none;
+}
 
 .logo {
   display: flex;
@@ -202,6 +205,14 @@ body {
 .social-handles {
   display: flex;
   gap: 20px;
+}
+.footer-list a {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-weight: medium;
+}
+.footer-list a:hover {
+  color: #e2d3fa;
 }
 
 .landing-page {
@@ -273,6 +284,9 @@ body {
   border-radius: 20px;
   cursor: pointer;
   font-size: 14px;
+}
+.primary-btn:hover {
+  background: linear-gradient(94.52deg, #c61ed4 0%, #c61ed4 82.22%);
 }
 
 .tradebot-plan-section {
@@ -449,8 +463,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 135px;
-  padding-right: 120px;
+  padding-left: 170px;
+  padding-right: 170px;
   padding-top: 200px;
 }
 .tokenomics-info {
@@ -516,7 +530,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.chart-logo img{
+.chart-logo img {
   padding-left: 16px;
   padding-bottom: 10px;
 }
@@ -737,5 +751,45 @@ footer {
 
 .minimal-white {
   color: #bebaba;
+  line-height: 15px;
+}
+.minimal-white2 {
+  color: #bebaba;
+  line-height: 15px;
+  text-align: justify;
 }
 
+.landing-image {
+  animation: bounce 2.5s ease-out infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 20px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+.plan-cat {
+  animation: bounce 2.5s ease-out infinite;
+}
+
+.circular-rod-img {
+  animation: bounce 2.5s ease-out infinite;
+}
+.tokenomics-bot {
+  animation: bounce 2.5s ease-out infinite;
+}
+
+a.navigation-item {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-item:hover {
+  cursor: pointer;
+}
