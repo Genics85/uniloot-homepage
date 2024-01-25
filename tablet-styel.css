@@ -29,8 +29,16 @@
     gap: 50px;
   }
   .tradebot-plan {
-    padding-top: 0px;
+    padding-top: 150px;
   }
+  .trade-perfected-section {
+    padding-top: 150px;
+  }
+
+  .tradebot-plan-section {
+    padding-top: 150px;
+  }
+
   .info-cat {
     flex-direction: column-reverse;
     align-items: center;
@@ -47,10 +55,16 @@
   .tokenomics-section {
     padding-left: 10px;
     padding-right: 15px;
-    padding-top: 50px;
+    padding-top: 150px;
   }
   .token-distribution-section {
-    padding-top: 100px;
+    padding-top: 150px;
+  }
+  .roadmap-section {
+    padding-top: 150px;
+  }
+  footer {
+    padding-top: 150px;
   }
   .distribution-details {
     padding-bottom: 40px;
@@ -82,8 +96,46 @@
     flex-direction: column;
     justify-content: space-between;
   }
-
   .footer-down p {
-  width: 400px;
-}
+    width: 400px;
+  }
+
+  .navigation-bar {
+    position: relative;
+  }
+
+  .responsive-nav-items {
+    background-color: #070214;
+    width: 100%;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-right: -50px;
+    margin-left: -10px;
+    top: 0px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .list-close {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .responsive-socials {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  .responsive-nav-list {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .close-button {
+    margin-right: 20px;
+  }
 }

@@ -31,8 +31,31 @@
           <img src="./assets/telegram-logo.png" alt="" />
         </div>
         <button class="primary-btn desktop-nav-item">Start trading</button>
-        <div class="burger-menu">
+        <div onclick="toggleNavbar()" class="burger-menu close-button">
           <img src="./assets/burger-menu 1.png" alt="" />
+        </div>
+        <div id="responsive-nav" class="responsive-nav-items">
+          <div class="list-close">
+            <ul class="responsive-nav-list">
+              <li>Trading</li>
+              <li>Features</li>
+              <li>Roadmap</li>
+              <li>Docs</li>
+              <li>Features</li>
+              <div class="responsive-socials">
+                <div>
+                  <img src="./assets/x-logo.png" alt="" />
+                </div>
+                <div>
+                  <img src="./assets/telegram-logo.png" alt="" />
+                </div>
+              </div>
+            </ul>
+            <div onclick="toggleNavbar()" class="close-button">
+              <img src="./assets/close_icon.png" alt="" />
+            </div>
+          </div>
+          <button class="primary-btn">Start trading</button>
         </div>
       </div>
       <div class="landing-page">
@@ -483,5 +506,14 @@
         <p>@2024 Uniloot. All rights reserved.</p>
       </div>
     </footer>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.getElementById("responsive-nav");
+        navbar.style.display =
+          navbar.style.display === "none" || navbar.style.display === ""
+            ? "flex"
+            : "none";
+      }
+    </script>
   </body>
 </html>

@@ -277,13 +277,13 @@ body {
 .tradebot-plan-section {
   display: flex;
   flex-direction: column;
-  padding-top: 65px;
+  padding-top: 200px;
   align-items: center;
   gap: 36px;
 }
 
 .tradebot-plan {
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .tradebot-plan-section h3 {
@@ -414,7 +414,7 @@ body {
 }
 
 .trade-perfected-section {
-  padding-top: 120px;
+  padding-top: 200px;
   padding-bottom: 60px;
   display: flex;
   flex-direction: column;
@@ -450,7 +450,7 @@ body {
   justify-content: space-between;
   padding-left: 135px;
   padding-right: 120px;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 .tokenomics-info {
   width: 350px;
@@ -550,11 +550,11 @@ body {
 
 footer {
   padding-left: 135px;
-  padding-top: 100px;
+  padding-top: 200px;
   display: flex;
   flex-direction: column;
   gap: 35px;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 .footer-top {
   display: flex;
@@ -716,12 +716,16 @@ footer {
   column-gap: 400px;
 }
 
-.footer-down-first{
+.footer-down-first {
   display: flex;
-  gap:40px;
+  gap: 40px;
   justify-content: space-between;
 }
-.top-items-first{
+.top-items-first {
   display: flex;
   gap: 80px;
+}
+
+.responsive-nav-items {
+  display: none;
 }

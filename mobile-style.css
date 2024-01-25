@@ -62,6 +62,12 @@
     padding-right: 15px;
     padding-top: 50px;
   }
+  .tokenomics-info{
+    align-items: center;
+  }
+  .tokenomics-info p {
+    text-align: center;
+  }
 
   .token-distribution-section {
     padding-top: 100px;
