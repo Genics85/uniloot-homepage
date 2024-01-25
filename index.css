@@ -137,6 +137,7 @@ body {
   background-color: #08021a;
   color: white;
   font-family: "Poppins", sans-serif;
+  line-height: auto !important;
 }
 
 .landing-details {
@@ -515,6 +516,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+.chart-logo img{
+  padding-left: 16px;
+  padding-bottom: 10px;
+}
 .top-chart {
   display: flex;
   justify-content: space-between;
@@ -729,3 +734,8 @@ footer {
 .responsive-nav-items {
   display: none;
 }
+
+.minimal-white {
+  color: #bebaba;
+}
+
