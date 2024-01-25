@@ -20,11 +20,19 @@
           </h3>
         </div>
         <ul class="navigation-items desktop-nav-item">
-          <li class="navigation-item">Trading</li>
-          <li class="navigation-item">Features</li>
-          <li class="navigation-item">Tokenomics</li>
-          <li class="navigation-item">Roadmap</li>
-          <li onclick="redirectToDocs()" class="navigation-item">Docs</li>
+          <li class="navigation-item"><a href="#tradingid">Trading</a></li>
+          <li class="navigation-item">
+            <a href="#tradebotplanid">Features</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#tokenomicsid">Tokenomics</a>
+          </li>
+          <li class="navigation-item"><a href="#roadmapid">Roadmap</a></li>
+          <li class="navigation-item">
+            <a href="https://doc.unilootbot.app/product-guide" target="_blank"
+              >Docs</a
+            >
+          </li>
         </ul>
         <div class="social-handles desktop-nav-item">
           <img src="./assets/x-log.svg" alt="" />
@@ -34,7 +42,10 @@
             alt=""
           />
         </div>
-        <button onclick="redirectToTelegram()" class="primary-btn desktop-nav-item">
+        <button
+          onclick="redirectToTelegram()"
+          class="primary-btn desktop-nav-item"
+        >
           Start trading
         </button>
         <div onclick="toggleNavbar()" class="burger-menu close-button">
@@ -43,10 +54,16 @@
         <div id="responsive-nav" class="responsive-nav-items">
           <div class="list-close">
             <ul class="responsive-nav-list">
-              <li>Trading</li>
-              <li>Features</li>
-              <li>Roadmap</li>
-              <li onclick="redirectToDocs()">Docs</li>
+              <li><a href="#tradingid">Trading</a></li>
+              <li><a href="#tradebotplanid">Features</a></li>
+              <li><a href="#roadmapid">Roadmap</a></li>
+              <li>
+                <a
+                  href="https://doc.unilootbot.app/product-guide"
+                  target="_blank"
+                  >Docs</a
+                >
+              </li>
               <li>Features</li>
               <div class="responsive-socials">
                 <div>
@@ -96,7 +113,7 @@
           </button>
         </div>
       </div>
-      <div class="landing-page">
+      <div id="tradingid" class="landing-page">
         <div class="landing-details">
           <div class="landing-headers">
             <h3>
@@ -129,7 +146,7 @@
       </div>
     </main>
     <section class="tradebot-plan radial-gradient-background">
-      <div class="tradebot-cards">
+      <div id="tradebotplanid" class="tradebot-cards">
         <div class="tradebot-cards-two">
           <div class="tradebot-card">
             <h3>TG BOT</h3>
@@ -140,7 +157,9 @@
               everything you need to gain valuable insights and make data-driven
               decisions.
             </p>
-            <button class="primary-btn">opening Bot</button>
+            <button onclick="redirectToTelegram()" class="primary-btn">
+              opening Bot
+            </button>
           </div>
           <div class="tradebot-card">
             <h3>WEB APPS</h3>
@@ -287,7 +306,7 @@
         </div>
       </div>
     </section>
-    <section class="tokenomics-section">
+    <section id="tokenomicsid"  class="tokenomics-section">
       <div class="tokenomics-bot">
         <img src="./assets/tokenomics-bot.png" alt="" />
       </div>
@@ -387,7 +406,7 @@
       </div>
     </section>
     <section class="roadmap-section">
-      <h3 class="section-header">Roadmap</h3>
+      <h3 id="roadmapid" class="section-header">Roadmap</h3>
       <p class="minimal-white">
         We are continually working on innovations to enhance the trading
         experience and empower users with a competitive edges.
@@ -488,7 +507,9 @@
           <img src="./assets/frames-circular-rod.png" alt="" />
         </div>
       </div>
-      <button class="primary-btn frames-btn">Trade now</button>
+      <button onclick="redirectToTelegram()" class="primary-btn frames-btn">
+        Trade now
+      </button>
     </section>
     <footer>
       <div class="footer-socials">
@@ -524,7 +545,13 @@
           <div class="footer-socials footer-top-item">
             <h3 class="section-header">Resources</h3>
             <div class="footer-list">
-              <p><a href="https://doc.unilootbot.app/product-guide">Docs</a></p>
+              <p>
+                <a
+                  href="https://doc.unilootbot.app/product-guide"
+                  target="_blank"
+                  >Docs</a
+                >
+              </p>
             </div>
           </div>
           <div class="footer-socials footer-top-item">
