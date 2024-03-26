@@ -217,7 +217,8 @@ body {
 
 .landing-page {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 350px;
   align-items: center;
 }
 
@@ -403,7 +404,8 @@ body {
 .info-cat {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap:100px;
+  justify-content: center;
 }
 .plan-side-images {
   display: flex;
@@ -462,7 +464,8 @@ body {
 .tokenomics-section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap:420px;
   padding-left: 170px;
   padding-right: 170px;
   padding-top: 200px;

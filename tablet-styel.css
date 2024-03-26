@@ -5,6 +5,7 @@
   .burger-menu {
     display: block;
   }
+
   .landing-image img {
     max-width: 100%;
     height: auto;
@@ -42,6 +43,8 @@
   .info-cat {
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: space-between;
+    gap: 10px;
   }
   .plan-side-images {
     padding-right: 10px;
@@ -55,6 +58,8 @@
   .tokenomics-section {
     padding-left: 10px;
     padding-right: 15px;
+    gap: 10px;
+    justify-content: space-between;
     padding-top: 150px;
   }
   .token-distribution-section {
@@ -137,5 +142,12 @@
   }
   .close-button {
     margin-right: 20px;
+  }
+
+  .landing-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
   }
 }
